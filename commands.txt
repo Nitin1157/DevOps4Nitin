@@ -10,3 +10,6 @@ git branch "branchname"
 git restore "filename" to unchange the modified file
 Remove everything from Local Repo git rm -r --cached.
 or if you are untracking a specific file(s) git rm -r --cached name_of_file 
+In order to show all of the tracked files that have been committed on the current branch, run:
+git ls-tree --full-tree --name-only -r HEAD
+
