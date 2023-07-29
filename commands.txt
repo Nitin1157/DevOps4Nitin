@@ -1,12 +1,12 @@
 Hello this is git file
-ndfndvdmvd
-dfd
-fbds
-bgdbs
-bdg
-bggbsg
-ngsb
-dhngdsnhdn
 
-
-git checkout -b branch 
+git status
+git add "filename"
+git checkout -b "branchname"
+git config --global user.name "" user.email ""
+git log --oneliner --pretty
+git commit -m "comment"
+git branch "branchname"
+git restore "filename" to unchange the modified file
+Remove everything from Local Repo git rm -r --cached.
+or if you are untracking a specific file(s) git rm -r --cached name_of_file 
