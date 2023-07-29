@@ -3,3 +3,5 @@ git status
 git commit -m ""
 git config --global user.name "" user.email ""
 git rm --cached "filename"
+git remote -v
+git pull origin main
